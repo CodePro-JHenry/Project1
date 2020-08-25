@@ -1,1 +1,0 @@
-alert("script.js reference is working");
