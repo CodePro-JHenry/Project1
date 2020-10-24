@@ -1,0 +1,1 @@
+var MyVariable =  100;
