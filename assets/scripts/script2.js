@@ -11,8 +11,8 @@ function generateFunction(numToAdd) {
 
 function generatePowerFunc(power) {
     return function(num) {
-        return num ** power;
-    }
+        return Math.pow(num, power);
+    };
 }
 
 var squareIt = generatePowerFunc(2);
@@ -26,7 +26,6 @@ var addTwoFunc = generateFunction(2);
 var addFiveFunc = generateFunction(5);
 var result1 = addTwoFunc(2);
 var result2 = addFiveFunc(2);
-console.log(result1);  // should log 4
-console.log(result2);  // should log 7 (i.e. the function returned and assigned to addFiveFunc, should add 5 to whatever number is passed. (edited) 
-
+console.log(result1); // should log 4
+console.log(result2); // should log 7 (i.e. the function returned and assigned to addFiveFunc, should add 5 to whatever number is passed. (edited)
 console.log(addTwoFunc(40)); //will log 42 because it "remembers" the value 2 originally supplied when the returned function was created.
