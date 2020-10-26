@@ -6,7 +6,7 @@ function generateFunction(numToAdd) {
         return num + numToAdd;
     }
     //The returned function definition now has a hard-set value internally for numToAdd.
-    return adderFunction;
+    return adderFunction
 }
 
 function generatePowerFunc(power) {
