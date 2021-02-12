@@ -1,1 +1,3 @@
-var MyVariable =  100;
+var myVariable = 100;
+
+console.log(myVariable);
